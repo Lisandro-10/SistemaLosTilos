@@ -4,27 +4,24 @@
  */
 package com.Lisandro.webApp.entities;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import jakarta.persistence.Column;
 
 /**
  *
  * @author lisan
  */
 @Entity
-@Table(name = "TipoGrupoFamiliar")
+@Table(name = "accion")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class TipoGrupoFamiliar {
+public class Accion {
     
-    
-    @Column
-    private String nombreTipoFamiliar;
 }
